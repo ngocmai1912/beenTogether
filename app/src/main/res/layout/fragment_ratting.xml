@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minWidth="290dp"
+    tools:context=".ui.setting.RatingFragment"
+    android:background="#EFD9D9"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RatingBar
+        android:id="@+id/rating"
+        style="@android:style/Widget.RatingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rating="0"
+        android:stepSize="1"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:text="@string/btn_close"
+        android:textColor="#FC6262"
+        android:layout_gravity="end"/>
+</LinearLayout>
